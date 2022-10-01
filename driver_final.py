@@ -8,7 +8,7 @@ import timeit
 from queue import Queue
 
 start = timeit.default_timer()
-webhook = DiscordWebhook(url = 'https://discord.com/api/webhooks/990200263283449866/qriuPkMe5vGzq1in1cslqAkJTWw9ciRj2kjNIU4lGMe7H6XH1jJsLYfxbezvfASK12MF',rate_limit_retry=True)
+webhook = DiscordWebhook(url = 'Enter Webhook Here',rate_limit_retry=True)
 
 def post_request(i):
     df = pd.read_csv("Bible.csv", header=None, encoding='unicode_escape')
