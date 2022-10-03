@@ -25,10 +25,19 @@ See Bible.csv (pictured Above) to enter all of your personal details as follows:
 
 **Store**: Required, taken from a drop down box on the website. Options are stated in the Bible.csv, any can be chosen it does not affect the outcome.
 
-```webhook = DiscordWebhook(url = 'Enter Webhook Here',rate_limit_retry=True)``` User **must** enter their Discord webhook into the driver_final.py file. The program will log successful entries to a discord webhook file, stating all of the bible.csv column values that were used to make the entry.
+```webhook = DiscordWebhook(url = 'Enter Webhook Here',rate_limit_retry=True)``` User **must** enter their Discord webhook into the driver_final.py file. The program will log successful entries to a discord webhook message, stating the email that was used to make the entry. An example of a successful entry message is show below.
+
+
+<img width="437" alt="Screenshot 2022-10-03 at 15 06 24" src="https://user-images.githubusercontent.com/86264161/193658440-4ad8d9c7-6d91-4a00-9967-1bc66f0b44ce.png">
+
+
+
+
+
+
 
 ## COMMENTS:
 
-The file is not compiled to an exe for ease of changing properties of the code. Threading is used to assure that multiple entries can be sent t once, however, because the 7up Website is slow to respond this can sometimes cause crashing. Anyone is welcome to remove the threading and have the program enter the raffle 1by1.
+The file is not compiled to an exe for ease of changing properties of the code. Threading is used to assure that multiple entries can be sent at once, however, because the 7up Website is slow to respond this can sometimes cause crashing. Anyone is welcome to remove the threading and have the program enter the raffle 1 by1 .
 
-All packages used will need to be downloaded before running in shell.
+
