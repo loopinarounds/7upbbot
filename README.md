@@ -25,6 +25,9 @@ See Bible.csv (pictured Above) to enter all of your personal details as follows:
 
 **Store**: Required, taken from a drop down box on the website. Options are stated in the Bible.csv, any can be chosen it does not affect the outcome.
 
+
+```df = pd.read_csv("Bible.csv", header=None, encoding='unicode_escape')``` You are welcome to rename the Bible.csv file if you choose, just make sure you update the file name here.
+
 ```webhook = DiscordWebhook(url = 'Enter Webhook Here',rate_limit_retry=True)``` User **must** enter their Discord webhook into the driver_final.py file. The program will log successful entries to a discord webhook message, stating the email that was used to make the entry. An example of a successful entry message is show below.
 
 
